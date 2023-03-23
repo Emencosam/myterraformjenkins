@@ -32,4 +32,31 @@ resource "aws_instance" "web_3" {
   tags = {
     Name = "perez"
   }
-} 
+}
+
+ resource "aws_instance" "web_4" {
+  ami           = "ami-02f3f602d23f1659d"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "rose"
+  }
+}
+
+resource "aws_instance" "web_5" {
+  ami           = "ami-02f3f602d23f1659d"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "sam"
+  }
+}
+
+resource "aws_instance" "web_6" {
+  ami           = "ami-02f3f602d23f1659d"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "emeka"
+  }
+}
