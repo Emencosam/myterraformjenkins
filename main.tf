@@ -7,7 +7,7 @@ resource "aws_instance" "web" {
   }
 } 
 
-resource "aws_instance" "web-1" {
+resource "aws_instance" "web_1" {
   ami           = "ami-02f3f602d23f1659d"
   instance_type = "t3.micro"
 
@@ -16,7 +16,7 @@ resource "aws_instance" "web-1" {
   }
 } 
 
-resource "aws_instance" "web-2" {
+resource "aws_instance" "web_2" {
   ami           = "ami-02f3f602d23f1659d"
   instance_type = "t3.micro"
 
@@ -25,7 +25,7 @@ resource "aws_instance" "web-2" {
   }
 } 
 
-resource "aws_instance" "web-3" {
+resource "aws_instance" "web_3" {
   ami           = "ami-02f3f602d23f1659d"
   instance_type = "t3.micro"
 
